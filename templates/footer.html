@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      h1,h2,h3,h4,h5,h6{
+        margin: 5px;
+      }
+      div{
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+      }
+      /* footer style */
+      .footer_bx{
+        border-top: 1px solid #039bab;
+        display: flex;
+        display: -webkit-box; /* wkhtmltopdf uses this one */
+        height: 70px;
+        justify-content: space-between;
+        padding-top: 10px;
+        position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+      }
+      .footer_bx div{
+        margin: auto 0;
+        height: fit-content;
+        /* color: #eaeaea; */
+      }
+      .footer_bx .info{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+      }
+      .footer_bx .right-info{
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="footer_bx">
+      <div class="">
+        <h3>MIMS</h3>
+        <p class="info">
+          Kottakkal, Malappuram
+        </p>
+      </div>
+      <div class="right-info">
+        <p class="info">
+          sample@gmail.com
+        </p>
+        <p class="info">
+          965663010
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
