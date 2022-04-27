@@ -31,6 +31,7 @@ def full():
 	header_html = render_template('header.html')
 	html = HTML(string=header_html)
 	# header = html.render(stylesheets=[CSS('static/css/style.css')])
+	# header = html.render(stylesheets=[CSS(string='@page {size:A4; margin:0;} div {position: fixed; top: 1cm; left: 1cm;}')])
 	header = html.render()
 
 	header_page = header.pages[0]
